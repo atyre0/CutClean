@@ -1,0 +1,7 @@
+name: CutClean
+version: 1.0
+author: atyre
+main: me.atyre.cutclean.CutClean
+commands:
+  cutclean:
+    description: Toggles the Cut Clean Scenario.
