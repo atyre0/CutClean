@@ -1,6 +1,7 @@
 package me.atyre.cutclean;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class CutClean extends JavaPlugin {
@@ -8,6 +9,8 @@ public class CutClean extends JavaPlugin {
     private static CutClean instance;
 
     private static boolean cutCleanEnabled = false;
+
+    private static String cutCleanPrefix = ChatColor.GRAY + "[" + ChatColor.YELLOW + "CutClean" + ChatColor.GRAY + "]";
 
     @Override
     public void onEnable() {
@@ -32,5 +35,9 @@ public class CutClean extends JavaPlugin {
 
     public static void setCutCleanEnabled(boolean cutCleanEnabled) {
         CutClean.cutCleanEnabled = cutCleanEnabled;
+    }
+
+    public static String getCutCleanPrefix() {
+        return cutCleanPrefix;
     }
 }
