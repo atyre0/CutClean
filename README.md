@@ -1,9 +1,9 @@
 # CutClean
 
-Killing cows and mining smeltable ores will get them automatically cooked/smelted.
+Killing cows and mining smeltable ores will get them automatically cooked/smelted. Also, Looting and Fortune I, II, III will give the appropiate amount of materials dropped.
 
 ## Installation
-Download the plugin from the releases tab, or compile the plugin yourself (if you know how to) with maven.
+Download the plugin from the releases tab, or compile the plugin yourself with maven.
 Then just put the downloaded jar file into your servers plugin folder.
 
 ## Usage
